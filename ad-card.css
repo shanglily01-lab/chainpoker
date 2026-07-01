@@ -183,7 +183,7 @@ h1 {
   content: "";
   width: 29px;
   height: 29px;
-  background: url("./assets/chainpoker-mark.svg") center / contain no-repeat;
+  background: url("./assets/chainpoker-trademark-round.png") center / contain no-repeat;
 }
 
 .card-message {
@@ -373,7 +373,7 @@ dd {
 .trademark-mark {
   width: 126px;
   height: 126px;
-  background: url("./assets/chainpoker-mark.svg") center / contain no-repeat;
+  background: url("./assets/chainpoker-trademark-round.png") center / contain no-repeat;
 }
 
 .trademark-card strong {
@@ -529,7 +529,7 @@ dd {
 .pack-logo i {
   width: 25px;
   height: 25px;
-  background: url("./assets/chainpoker-mark.svg") center / contain no-repeat;
+  background: url("./assets/chainpoker-trademark-round.png") center / contain no-repeat;
 }
 
 .pack-line {
