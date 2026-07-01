@@ -2,23 +2,34 @@
 
 Domain: `chainpoker.club`
 
-## 1. Upload and extract
+## 1. Pull latest site
 
-Upload `chainpoker-site-linux.tar.gz` to your server, then run:
+The production site is deployed directly from the Git checkout at
+`/var/www/chainpoker.club`.
 
 ```bash
-sudo mkdir -p /var/www/chainpoker.club
-sudo tar -xzf chainpoker-site-linux.tar.gz -C /var/www/chainpoker.club
-sudo chown -R www-data:www-data /var/www/chainpoker.club
+cd /var/www/chainpoker.club
+sudo git pull
+sudo chown -R nginx:nginx /var/www/chainpoker.club
 ```
 
-If your Nginx user is not `www-data`, replace it with your server's Nginx user.
+The production Nginx user is `nginx`.
 
 ## 2. Install Nginx config
 
 ```bash
 sudo cp /var/www/chainpoker.club/deploy/nginx-chainpoker.club.conf /etc/nginx/sites-available/chainpoker.club
 sudo ln -s /etc/nginx/sites-available/chainpoker.club /etc/nginx/sites-enabled/chainpoker.club
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+For routine updates after the Nginx config is already installed, run:
+
+```bash
+cd /var/www/chainpoker.club
+sudo git pull
+sudo chown -R nginx:nginx /var/www/chainpoker.club
 sudo nginx -t
 sudo systemctl reload nginx
 ```
