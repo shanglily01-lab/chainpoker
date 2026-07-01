@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">ChainPoker round seal</title>
+  <desc id="desc">Circular seal with radial lettering whose tops face the outer ring.</desc>
+  <circle cx="64" cy="64" r="56" fill="#06291f" />
+  <circle cx="64" cy="64" r="52" fill="none" stroke="#e8c77e" stroke-width="4" />
+  <circle cx="64" cy="64" r="35" fill="none" stroke="#e8c77e" stroke-width="1.8" opacity=".86" />
+  <text x="31.06" y="36.36" transform="rotate(-50.00 31.06 36.36)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">C</text>
+  <text x="35.41" y="31.88" transform="rotate(-41.67 35.41 31.88)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">H</text>
+  <text x="40.37" y="28.07" transform="rotate(-33.33 40.37 28.07)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">A</text>
+  <text x="45.83" y="25.03" transform="rotate(-25.00 45.83 25.03)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">I</text>
+  <text x="51.67" y="22.81" transform="rotate(-16.67 51.67 22.81)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">N</text>
+  <text x="57.77" y="21.45" transform="rotate(-8.33 57.77 21.45)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">P</text>
+  <text x="64.00" y="21.00" transform="rotate(0.00 64.00 21.00)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">O</text>
+  <text x="70.23" y="21.45" transform="rotate(8.33 70.23 21.45)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">K</text>
+  <text x="76.33" y="22.81" transform="rotate(16.67 76.33 22.81)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">E</text>
+  <text x="82.17" y="25.03" transform="rotate(25.00 82.17 25.03)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">R</text>
+  <text x="87.63" y="28.07" transform="rotate(33.33 87.63 28.07)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">.</text>
+  <text x="92.59" y="31.88" transform="rotate(41.67 92.59 31.88)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">I</text>
+  <text x="96.94" y="36.36" transform="rotate(50.00 96.94 36.36)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="800" text-anchor="middle" dominant-baseline="central">O</text>
+  <text x="31.06" y="91.64" transform="rotate(-130.00 31.06 91.64)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">P</text>
+  <text x="36.36" y="96.94" transform="rotate(-140.00 36.36 96.94)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">O</text>
+  <text x="42.50" y="101.24" transform="rotate(-150.00 42.50 101.24)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">K</text>
+  <text x="49.29" y="104.41" transform="rotate(-160.00 49.29 104.41)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">E</text>
+  <text x="56.53" y="106.35" transform="rotate(-170.00 56.53 106.35)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">R</text>
+  <text x="64.00" y="107.00" transform="rotate(-180.00 64.00 107.00)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central"> </text>
+  <text x="71.47" y="106.35" transform="rotate(-190.00 71.47 106.35)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">C</text>
+  <text x="78.71" y="104.41" transform="rotate(-200.00 78.71 104.41)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">A</text>
+  <text x="85.50" y="101.24" transform="rotate(-210.00 85.50 101.24)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">R</text>
+  <text x="91.64" y="96.94" transform="rotate(-220.00 91.64 96.94)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">D</text>
+  <text x="96.94" y="91.64" transform="rotate(-230.00 96.94 91.64)" fill="#e8c77e" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">S</text>
+  <circle cx="107.00" cy="64.00" r="2.2" fill="#e8c77e" />
+  <circle cx="21.00" cy="64.00" r="2.2" fill="#e8c77e" />
+  <path d="M64 36C55.2 46.6 42.4 56 38.4 69C34.9 80.5 42.8 90.5 53.6 90.5C57.8 90.5 61.4 88.9 64 85.8C66.6 88.9 70.2 90.5 74.4 90.5C85.2 90.5 93.1 80.5 89.6 69C85.6 56 72.8 46.6 64 36Z" fill="#e8c77e" />
+  <path d="M58.4 87H69.6L73 99H55L58.4 87Z" fill="#e8c77e" />
+</svg>

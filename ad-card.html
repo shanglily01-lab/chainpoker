@@ -1,71 +1,95 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ChainPoker 遮挡牌与包装设计</title>
+    <title>ChainPoker Insert Card and Packaging Design</title>
+    <link rel="icon" href="./favicon.ico" sizes="any" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./ad-card.css" />
   </head>
   <body>
     <main class="page">
       <section class="hero-panel" aria-labelledby="page-title">
         <p class="eyebrow">Table insert / promo blocker / retail pack</p>
-        <h1 id="page-title">遮挡牌与多盒包装设计</h1>
+        <h1 id="page-title">Insert Card and Multi-Pack Design</h1>
         <p>
-          这张牌按扑克桌内的遮挡牌、广告牌、说明牌来设计，不作为单独牌面出售；
-          包装延续 chainpoker 深绿、烫金、细红线和链纹底纹的整体风格。
+          This card is designed as a table insert, promo blocker, and instruction card inside the deck,
+          not as a playable single card. The packaging keeps ChainPoker's deep green, gold foil,
+          fine red rule, and chain-pattern visual language.
         </p>
       </section>
 
-      <section class="design-board" aria-label="ChainPoker 遮挡牌设计">
+      <section class="design-board" aria-label="ChainPoker insert card design">
         <article class="blocker-card">
           <div class="corner top-left">♠</div>
           <div class="corner bottom-right">♠</div>
           <div class="chain-pattern"></div>
           <div class="brand">
-            <span class="brand-mark">♠</span>
+            <span class="brand-mark" aria-hidden="true"></span>
             <span>chainpoker</span>
           </div>
           <div class="card-message">
-            <p class="kicker">桌面遮挡牌</p>
-            <h2>扫码约牌友</h2>
-            <p>找同城牌局 · 组朋友桌 · 发现新玩法</p>
+            <p class="kicker">Table Insert Card</p>
+            <h2>Scan to Play</h2>
+            <p>Find local games · Host friend tables · Discover new formats</p>
           </div>
           <div class="qr-panel">
-            <img src="./assets/chainpoker-io-qr.png" alt="chainpoker.io 二维码" />
-            <span>chainpoker.io</span>
+            <div class="qr-copy">
+              <strong>SCAN THE QR CODE</strong>
+              <span>Join games on ChainPoker</span>
+            </div>
+            <img src="./assets/chainpoker-io-qr.png" alt="chainpoker.io QR code" />
+            <a href="https://chainpoker.io">chainpoker.io</a>
           </div>
-          <div class="usage-tag">随牌附赠 · 非单张牌</div>
+          <div class="usage-tag">Included in deck · Not a playing card</div>
         </article>
 
         <aside class="spec-panel">
           <p class="eyebrow">Card usage</p>
-          <h3>放在牌盒内的遮挡/广告牌</h3>
+          <h3>In-box insert and promo blocker</h3>
           <p>
-            视觉上保留扑克牌边框比例，但正面明确标注「桌面遮挡牌」和「非单张牌」，
-            避免被误认为可打出的独立牌。二维码区域加大留白，适合印刷和扫码。
+            The layout keeps the proportions and border rhythm of a poker card, while clearly marking it
+            as a table insert and non-playable card. The QR area uses generous white space for print clarity
+            and fast scanning.
           </p>
           <dl>
             <div>
-              <dt>建议尺寸</dt>
+              <dt>Suggested size</dt>
               <dd>63 × 88 mm</dd>
             </div>
             <div>
-              <dt>工艺</dt>
-              <dd>哑膜 + 局部烫金</dd>
+              <dt>Finish</dt>
+              <dd>Matte lamination + spot foil</dd>
             </div>
             <div>
-              <dt>位置</dt>
-              <dd>每副牌内加放 1 张</dd>
+              <dt>Placement</dt>
+              <dd>1 insert per deck</dd>
             </div>
           </dl>
         </aside>
       </section>
 
+      <section class="trademark-section" aria-labelledby="trademark-title">
+        <div>
+          <p class="eyebrow">Trademark system</p>
+          <h2 id="trademark-title">ChainPoker Trademark</h2>
+          <p>
+            The seal uses circular ChainPoker lettering around a classic ace-of-spades center. It keeps the
+            poker signal direct and recognizable for deck boxes, cartons, website icons, and foil stamping.
+          </p>
+        </div>
+        <div class="trademark-card">
+          <span class="trademark-mark" aria-hidden="true"></span>
+          <strong>chainpoker</strong>
+          <small>Ace seal mark / retail trademark</small>
+        </div>
+      </section>
+
       <section class="packaging-section" aria-labelledby="packaging-title">
         <div class="section-heading">
           <p class="eyebrow">Retail bundles</p>
-          <h2 id="packaging-title">3、6、12 盒扑克牌包装</h2>
+          <h2 id="packaging-title">3, 6, and 12 Deck Packaging</h2>
         </div>
 
         <div class="packaging-grid">
@@ -74,7 +98,7 @@
               <div class="pack-face">
                 <span class="pack-count">3</span>
                 <span class="pack-unit">Deck Pack</span>
-                <span class="pack-logo">♠ chainpoker</span>
+                <span class="pack-logo"><i></i>chainpoker</span>
                 <span class="pack-line"></span>
                 <span class="pack-subtitle">Texas Hold'em Poker Cards</span>
                 <span class="suit-row">♠ ♥ ♦ ♣</span>
@@ -82,47 +106,61 @@
               <div class="pack-side">3 BOX</div>
             </div>
             <div class="pack-copy">
-              <p class="label">入门组合</p>
-              <h3>3 盒装抽屉式纸套</h3>
-              <p>适合平台首单、朋友桌补充装；横向窄盒，正面突出数量，背面可放材质卖点。</p>
+              <p class="label">Starter bundle</p>
+              <h3>3-deck sleeve pack</h3>
+              <p>A compact entry bundle for first orders and casual table refills, with the deck count leading the front panel.</p>
             </div>
           </article>
 
           <article class="pack pack-6">
             <div class="pack-render">
-              <div class="pack-face">
-                <span class="pack-count">6</span>
-                <span class="pack-unit">Deck Case</span>
-                <span class="pack-logo">♠ chainpoker</span>
-                <span class="pack-line"></span>
-                <span class="pack-subtitle">Waterproof / Smooth Shuffle</span>
-                <span class="deck-slots"></span>
+              <div class="retail-hanger bundle-6">
+                <div class="hang-tab"><span></span></div>
+                <div class="carton-front">
+                  <span class="stripe"></span>
+                  <span class="pattern-field"></span>
+                  <span class="pack-logo"><i></i>chainpoker</span>
+                  <span class="pack-count">6</span>
+                  <span class="pack-unit">Deck Case</span>
+                  <span class="pack-subtitle">100% plastic · jumbo index · poker size</span>
+                  <span class="mini-deck-rail">
+                    <i></i><i></i><i></i><i></i><i></i><i></i>
+                  </span>
+                </div>
+                <div class="carton-side">6 BOX</div>
               </div>
-              <div class="pack-side">6 BOX</div>
             </div>
             <div class="pack-copy">
-              <p class="label">主推组合</p>
-              <h3>6 盒装翻盖礼盒</h3>
-              <p>适合俱乐部和分销样品；内托可排 2 × 3，外盒用深绿皮纹和金色线框统一陈列感。</p>
+              <p class="label">Hero bundle</p>
+              <h3>6-deck hang-tab carton</h3>
+              <p>A retail-ready hanging carton for shelf display, with a lower deck rail showing the six inner boxes.</p>
             </div>
           </article>
 
           <article class="pack pack-12">
             <div class="pack-render">
-              <div class="pack-face">
-                <span class="pack-count">12</span>
-                <span class="pack-unit">Club Carton</span>
-                <span class="pack-logo">♠ chainpoker</span>
-                <span class="pack-line"></span>
-                <span class="pack-subtitle">Full Table Supply Pack</span>
-                <span class="case-badge">CLUB READY</span>
+              <div class="retail-hanger bundle-12">
+                <div class="hang-tab"><span></span></div>
+                <div class="carton-front">
+                  <span class="stripe"></span>
+                  <span class="pattern-field"></span>
+                  <span class="pack-logo"><i></i>chainpoker</span>
+                  <span class="pack-count">12</span>
+                  <span class="pack-unit">Club Carton</span>
+                  <span class="pack-subtitle">full table supply pack</span>
+                  <span class="case-badge">CLUB READY</span>
+                  <span class="mini-deck-rail double">
+                    <i></i><i></i><i></i><i></i><i></i><i></i>
+                    <i></i><i></i><i></i><i></i><i></i><i></i>
+                  </span>
+                </div>
+                <div class="carton-side">12 BOX</div>
               </div>
-              <div class="pack-side">12 BOX</div>
             </div>
             <div class="pack-copy">
-              <p class="label">批发组合</p>
-              <h3>12 盒装俱乐部外箱</h3>
-              <p>适合整桌补货和批发运输；更强的箱体感、侧标更大，便于仓储识别和门店堆头展示。</p>
+              <p class="label">Club bundle</p>
+              <h3>12-deck refill carton</h3>
+              <p>A larger supply carton with a bold side count and front deck array for clubs, dealers, and bulk refills.</p>
             </div>
           </article>
         </div>
