@@ -752,6 +752,137 @@ dd {
   transform: translateX(-50%);
 }
 
+.blocker-card {
+  border: 1px solid rgba(10, 44, 104, 0.18);
+  border-radius: 14px;
+  color: #0a2c68;
+  background:
+    radial-gradient(circle at 26% 22%, rgba(255, 255, 255, 0.92), transparent 18%),
+    linear-gradient(135deg, transparent 0 42%, rgba(21, 115, 224, 0.16) 43% 45%, transparent 46%),
+    linear-gradient(45deg, transparent 0 42%, rgba(21, 115, 224, 0.16) 43% 45%, transparent 46%),
+    linear-gradient(180deg, #ffffff, #eef8ff);
+  background-size:
+    auto,
+    48px 48px,
+    48px 48px,
+    auto;
+  box-shadow: 0 28px 62px rgba(17, 104, 205, 0.18);
+}
+
+.blocker-card::before {
+  inset: 18px;
+  border: 6px double #f4b72f;
+  border-radius: 10px;
+  background:
+    linear-gradient(90deg, #0a2c68, #0e67db, #0a2c68) top / 100% 12px no-repeat,
+    linear-gradient(90deg, #0a2c68, #0e67db, #0a2c68) bottom / 100% 12px no-repeat,
+    linear-gradient(180deg, #0a2c68, #0e67db, #0a2c68) left / 12px 100% no-repeat,
+    linear-gradient(180deg, #0a2c68, #0e67db, #0a2c68) right / 12px 100% no-repeat;
+  opacity: 1;
+}
+
+.blocker-card::after {
+  inset: 34px;
+  border: 1px solid rgba(244, 183, 47, 0.58);
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.chain-pattern {
+  inset: 42px;
+  opacity: 0.42;
+  background:
+    radial-gradient(ellipse at 20% 20%, transparent 0 35%, rgba(14, 103, 219, 0.46) 36% 39%, transparent 40%),
+    radial-gradient(ellipse at 78% 28%, transparent 0 35%, rgba(14, 103, 219, 0.4) 36% 39%, transparent 40%),
+    radial-gradient(ellipse at 32% 78%, transparent 0 35%, rgba(14, 103, 219, 0.4) 36% 39%, transparent 40%),
+    linear-gradient(135deg, transparent 0 45%, rgba(14, 103, 219, 0.28) 46% 48%, transparent 49%),
+    linear-gradient(45deg, transparent 0 45%, rgba(14, 103, 219, 0.28) 46% 48%, transparent 49%);
+  background-size: 138px 138px, 128px 128px, 132px 132px, 44px 44px, 44px 44px;
+  transform: none;
+}
+
+.corner {
+  z-index: 5;
+  color: #f4b72f;
+  text-shadow: 0 1px 0 rgba(10, 44, 104, 0.18);
+}
+
+.brand {
+  width: min(82%, 300px);
+  margin: 12px auto 0;
+  padding: 10px 16px;
+  justify-content: center;
+  border: 2px solid #f4b72f;
+  border-radius: 999px;
+  color: #ffe5a3;
+  background: linear-gradient(180deg, #0a3fa6, #071a58);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+
+.brand-mark,
+.brand-mark::before {
+  width: 42px;
+  height: 42px;
+}
+
+.card-message {
+  width: min(82%, 310px);
+  margin: clamp(26px, 8%, 42px) auto 0;
+  padding: 22px 18px 24px;
+  border: 3px solid #f4b72f;
+  border-radius: 34px;
+  color: #ffe5a3;
+  background:
+    radial-gradient(circle at 50% 10%, rgba(255, 255, 255, 0.12), transparent 28%),
+    linear-gradient(180deg, #0b42a8, #071a58);
+  box-shadow:
+    0 0 0 2px #0a2c68,
+    0 16px 28px rgba(10, 44, 104, 0.2);
+}
+
+.kicker {
+  margin-bottom: 12px;
+  padding: 5px 12px;
+  border: 1px solid rgba(255, 229, 163, 0.72);
+  border-radius: 999px;
+  color: #ffe5a3;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: clamp(11px, 2vw, 13px);
+}
+
+.card-message h2 {
+  width: auto;
+  color: #ffe5a3;
+  font-size: clamp(25px, 5.2vw, 36px);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.18);
+}
+
+.card-message p:last-child {
+  max-width: 250px;
+  color: rgba(255, 245, 214, 0.88);
+}
+
+.qr-panel {
+  bottom: 58px;
+  width: min(62%, 198px);
+  border: 2px solid #f4b72f;
+  background:
+    linear-gradient(180deg, #ffffff 0 50px, #f7fbff 50px calc(100% - 32px), #ffe5a3 calc(100% - 32px)),
+    #fff;
+  box-shadow: 0 14px 24px rgba(10, 44, 104, 0.2);
+}
+
+.qr-panel a {
+  color: #071a58;
+  background: linear-gradient(180deg, #ffe5a3, #f4b72f);
+}
+
+.usage-tag {
+  color: #ffe5a3;
+  background: linear-gradient(180deg, #0b42a8, #071a58);
+  box-shadow: 0 0 0 2px #f4b72f;
+}
+
 .box-carton {
   --box-front: 260px;
   --box-height: 342px;

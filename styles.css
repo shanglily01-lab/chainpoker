@@ -139,8 +139,7 @@ a {
 .hero::before {
   content: "";
   position: absolute;
-  inset: 124px clamp(20px, 6vw, 82px) auto;
-  height: 360px;
+  inset: 112px clamp(20px, 6vw, 82px) 54px;
   border-radius: 34px;
   background:
     radial-gradient(circle at 82% 32%, rgba(255, 200, 77, 0.62), transparent 13%),
@@ -156,6 +155,11 @@ a {
 .hero-visual {
   position: relative;
   z-index: 1;
+}
+
+.hero-copy {
+  max-width: 560px;
+  padding: clamp(24px, 4vw, 42px) 0;
 }
 
 .eyebrow {
@@ -175,11 +179,12 @@ p {
 }
 
 h1 {
-  margin-bottom: 18px;
-  color: #ff43d1;
-  font-size: clamp(58px, 7.4vw, 100px);
-  line-height: 0.9;
-  text-shadow: 0 6px 0 rgba(0, 28, 130, 0.18);
+  margin-bottom: 16px;
+  color: #fff7dc;
+  font-size: clamp(54px, 7vw, 92px);
+  line-height: 0.95;
+  letter-spacing: 0;
+  text-shadow: 0 6px 0 rgba(0, 28, 130, 0.22);
 }
 
 h2 {
@@ -198,10 +203,12 @@ h3 {
 }
 
 .hero-text {
-  max-width: 620px;
+  max-width: 500px;
+  margin-bottom: 0;
   color: #fff7dc;
-  font-size: clamp(18px, 2vw, 24px);
-  font-weight: 820;
+  font-size: clamp(17px, 1.65vw, 21px);
+  font-weight: 760;
+  line-height: 1.5;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -626,8 +633,7 @@ input::placeholder {
   }
 
   .hero::before {
-    inset: 112px 16px auto;
-    height: 462px;
+    inset: 94px 16px 28px;
   }
 
   .packaging-card.large img {
@@ -664,7 +670,6 @@ input::placeholder {
   }
 
   .hero::before {
-    height: 500px;
     border-radius: 24px;
   }
 
