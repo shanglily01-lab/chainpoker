@@ -1,9 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#06291f" />
-  <circle cx="32" cy="32" r="24" fill="none" stroke="#e8c77e" stroke-width="3" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">ChainPoker blue-gold spade icon</title>
+  <desc id="desc">Glossy royal blue round icon with a gold ace-of-spades mark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="14" y1="7" x2="50" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#53c9ff" />
+      <stop offset=".5" stop-color="#1687ff" />
+      <stop offset="1" stop-color="#071a58" />
+    </linearGradient>
+    <linearGradient id="gold" x1="22" y1="16" x2="44" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff4c4" />
+      <stop offset=".48" stop-color="#ffc23f" />
+      <stop offset="1" stop-color="#f18418" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#eaf6ff" />
+  <circle cx="32" cy="32" r="27" fill="url(#bg)" />
+  <circle cx="32" cy="32" r="24.5" fill="none" stroke="#fff7d4" stroke-width="2.5" opacity=".88" />
+  <circle cx="25" cy="18" r="10" fill="#fff" opacity=".24" />
   <path
-    d="M32 16C25.6 23.7 16.4 30.5 13.5 39.9C11 48.2 16.7 55.4 24.5 55.4C27.5 55.4 30.1 54.2 32 52C33.9 54.2 36.5 55.4 39.5 55.4C47.3 55.4 53 48.2 50.5 39.9C47.6 30.5 38.4 23.7 32 16Z"
-    fill="#e8c77e"
+    d="M32 15C25.8 22.6 17.4 29.7 15 38.3C12.8 46.2 18.1 52.6 25.2 52.6C28.2 52.6 30.8 51.2 32 48.9C33.2 51.2 35.8 52.6 38.8 52.6C45.9 52.6 51.2 46.2 49 38.3C46.6 29.7 38.2 22.6 32 15Z"
+    fill="url(#gold)"
   />
-  <path d="M27.9 53H36.1L38.6 61H25.4L27.9 53Z" fill="#e8c77e" />
+  <path d="M28.3 50H35.7L38 58H26L28.3 50Z" fill="url(#gold)" />
 </svg>

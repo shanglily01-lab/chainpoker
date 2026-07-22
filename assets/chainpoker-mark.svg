@@ -1,35 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 112 112" role="img" aria-labelledby="title desc">
-  <title id="title">ChainPoker round seal</title>
-  <desc id="desc">Circular seal with radial lettering whose tops face the outer ring.</desc>
-  <circle cx="64" cy="64" r="56" fill="#06291f" />
-  <circle cx="64" cy="64" r="52" fill="none" stroke="#e8c77e" stroke-width="4" />
-  <circle cx="64" cy="64" r="35" fill="none" stroke="#e8c77e" stroke-width="1.8" opacity=".86" />
-  <text x="26.76" y="42.50" transform="rotate(-60.00 26.76 42.50)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">C</text>
-  <text x="31.06" y="36.36" transform="rotate(-50.00 31.06 36.36)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">H</text>
-  <text x="36.36" y="31.06" transform="rotate(-40.00 36.36 31.06)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">A</text>
-  <text x="42.50" y="26.76" transform="rotate(-30.00 42.50 26.76)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">I</text>
-  <text x="49.29" y="23.59" transform="rotate(-20.00 49.29 23.59)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">N</text>
-  <text x="56.53" y="21.65" transform="rotate(-10.00 56.53 21.65)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">P</text>
-  <text x="64.00" y="21.00" transform="rotate(0.00 64.00 21.00)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">O</text>
-  <text x="71.47" y="21.65" transform="rotate(10.00 71.47 21.65)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">K</text>
-  <text x="78.71" y="23.59" transform="rotate(20.00 78.71 23.59)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">E</text>
-  <text x="85.50" y="26.76" transform="rotate(30.00 85.50 26.76)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">R</text>
-  <text x="91.64" y="31.06" transform="rotate(40.00 91.64 31.06)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">.</text>
-  <text x="96.94" y="36.36" transform="rotate(50.00 96.94 36.36)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">I</text>
-  <text x="101.24" y="42.50" transform="rotate(60.00 101.24 42.50)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6.8" font-weight="800" text-anchor="middle" dominant-baseline="central">O</text>
-  <text x="31.06" y="91.64" transform="rotate(-130.00 31.06 91.64)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">P</text>
-  <text x="36.36" y="96.94" transform="rotate(-140.00 36.36 96.94)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">O</text>
-  <text x="42.50" y="101.24" transform="rotate(-150.00 42.50 101.24)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">K</text>
-  <text x="49.29" y="104.41" transform="rotate(-160.00 49.29 104.41)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">E</text>
-  <text x="56.53" y="106.35" transform="rotate(-170.00 56.53 106.35)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">R</text>
-  <text x="64.00" y="107.00" transform="rotate(-180.00 64.00 107.00)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central"> </text>
-  <text x="71.47" y="106.35" transform="rotate(-190.00 71.47 106.35)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">C</text>
-  <text x="78.71" y="104.41" transform="rotate(-200.00 78.71 104.41)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">A</text>
-  <text x="85.50" y="101.24" transform="rotate(-210.00 85.50 101.24)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">R</text>
-  <text x="91.64" y="96.94" transform="rotate(-220.00 91.64 96.94)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">D</text>
-  <text x="96.94" y="91.64" transform="rotate(-230.00 96.94 91.64)" fill="#e8c77e" font-family="Segoe Print, Ink Free, Comic Sans MS, Arial, sans-serif" font-size="6" font-weight="800" text-anchor="middle" dominant-baseline="central">S</text>
-  <circle cx="107.00" cy="64.00" r="2.2" fill="#e8c77e" />
-  <circle cx="21.00" cy="64.00" r="2.2" fill="#e8c77e" />
-  <path d="M64 36C55.2 46.6 42.4 56 38.4 69C34.9 80.5 42.8 90.5 53.6 90.5C57.8 90.5 61.4 88.9 64 85.8C66.6 88.9 70.2 90.5 74.4 90.5C85.2 90.5 93.1 80.5 89.6 69C85.6 56 72.8 46.6 64 36Z" fill="#e8c77e" />
-  <path d="M58.9 87H69.1L71.8 96.4H56.2L58.9 87Z" fill="#e8c77e" />
+  <title id="title">ChainPoker blue-gold seal</title>
+  <desc id="desc">Circular ChainPoker seal in glossy blue and gold with an ace-of-spades center.</desc>
+  <defs>
+    <linearGradient id="blue" x1="28" y1="16" x2="94" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58ceff" />
+      <stop offset=".48" stop-color="#1687ff" />
+      <stop offset="1" stop-color="#071a58" />
+    </linearGradient>
+    <linearGradient id="gold" x1="38" y1="26" x2="88" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff4c4" />
+      <stop offset=".46" stop-color="#ffc23f" />
+      <stop offset="1" stop-color="#f18418" />
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="56" fill="#eaf6ff" />
+  <circle cx="64" cy="64" r="53" fill="url(#blue)" />
+  <circle cx="64" cy="64" r="48" fill="none" stroke="#fff7d4" stroke-width="4" />
+  <circle cx="64" cy="64" r="35" fill="none" stroke="#ffe5a3" stroke-width="1.8" opacity=".9" />
+  <circle cx="46" cy="31" r="16" fill="#fff" opacity=".22" />
+  <text x="64" y="31" fill="#fff7d4" font-family="Arial, sans-serif" font-size="8" font-weight="900" text-anchor="middle" letter-spacing="1.6">CHAINPOKER</text>
+  <text x="64" y="102" fill="#fff7d4" font-family="Arial, sans-serif" font-size="6.8" font-weight="900" text-anchor="middle" letter-spacing="1.6">POKER CARDS</text>
+  <circle cx="107" cy="64" r="2.6" fill="#ffe5a3" />
+  <circle cx="21" cy="64" r="2.6" fill="#ffe5a3" />
+  <path d="M64 38C56 47.5 44.8 56.4 41.2 68.1C38.1 78.1 45.1 86.6 54.4 86.6C58.1 86.6 61.5 85.1 64 81.9C66.5 85.1 69.9 86.6 73.6 86.6C82.9 86.6 89.9 78.1 86.8 68.1C83.2 56.4 72 47.5 64 38Z" fill="url(#gold)" />
+  <path d="M59.5 83.8H68.5L71.2 94H56.8L59.5 83.8Z" fill="url(#gold)" />
 </svg>
