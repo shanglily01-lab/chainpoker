@@ -293,6 +293,77 @@ h3 {
     0 10px 20px rgba(18, 143, 243, 0.14);
 }
 
+.button.gold {
+  color: #3a2500;
+  background: linear-gradient(180deg, #ffe584, #ffc84d 58%, #e3a31a);
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, 0.72),
+    0 9px 0 rgba(180, 112, 8, 0.22),
+    0 18px 28px rgba(244, 183, 47, 0.28);
+}
+
+.hero-qr {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  padding: 8px 16px 8px 8px;
+  border: 1px solid rgba(255, 229, 163, 0.42);
+  border-radius: 999px;
+  color: #fffaf0;
+  background: rgba(7, 21, 93, 0.42);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-qr:hover,
+.hero-qr:focus-visible {
+  border-color: rgba(255, 200, 77, 0.9);
+  transform: translateY(-2px);
+}
+
+.hero-qr-plate {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.22);
+}
+
+.hero-qr img {
+  width: 44px;
+  height: 44px;
+  image-rendering: pixelated;
+}
+
+.hero-qr strong,
+.hero-qr small {
+  display: block;
+  text-align: left;
+}
+
+.hero-qr strong {
+  color: #ffe5a3;
+  font-size: 14px;
+  font-weight: 950;
+}
+
+.hero-qr small {
+  color: rgba(255, 250, 240, 0.78);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.inline-link {
+  color: var(--blue);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .hero-visual img {
   width: min(600px, 100%);
   margin-left: auto;
@@ -605,6 +676,11 @@ h3 {
   transform: translateX(-50%);
 }
 
+.cut-qr:hover img,
+.cut-qr:focus-visible img {
+  transform: scale(1.04);
+}
+
 .cut-qr img {
   width: 82%;
   margin: 0 auto;
@@ -613,6 +689,7 @@ h3 {
   border-radius: 0;
   background: transparent;
   image-rendering: pixelated;
+  transition: transform 0.2s ease;
 }
 
 .cut-footer {
@@ -709,13 +786,11 @@ h3 {
 }
 
 .ad-mount {
-  display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(310px, 0.55fr);
-  gap: clamp(24px, 5vw, 72px);
-  align-items: center;
+  scroll-margin-top: 88px;
   color: #fff;
   background:
-    radial-gradient(circle at 82% 30%, rgba(255, 200, 77, 0.46), transparent 18%),
+    radial-gradient(circle at 82% 18%, rgba(255, 200, 77, 0.38), transparent 22%),
+    radial-gradient(circle at 12% 80%, rgba(67, 185, 255, 0.22), transparent 24%),
     linear-gradient(135deg, #142894, #07155d);
 }
 
@@ -728,36 +803,190 @@ h3 {
   color: rgba(255, 255, 255, 0.76);
 }
 
-.ad-panel {
+.ad-mount .eyebrow,
+.table-pass-kicker {
+  color: #ffe5a3;
+}
+
+.table-pass {
   display: grid;
-  min-height: 220px;
-  align-content: center;
-  gap: 10px;
-  padding: 30px;
-  border: 2px solid rgba(255, 255, 255, 0.24);
-  border-radius: var(--radius);
-  color: #fff;
-  background: linear-gradient(180deg, rgba(85, 196, 255, 0.24), rgba(255, 255, 255, 0.08));
-  box-shadow:
-    inset 0 3px 0 rgba(255, 255, 255, 0.22),
-    0 16px 30px rgba(0, 0, 0, 0.22);
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 360px);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+  padding: clamp(8px, 1vw, 18px);
 }
 
-.ad-panel:hover {
-  border-color: rgba(255, 200, 77, 0.82);
-}
-
-.ad-panel span {
-  color: rgba(255, 255, 255, 0.68);
-  font-size: 12px;
+.table-pass-kicker {
+  margin: 0 0 10px;
+  color: var(--gold);
+  font-size: 13px;
   font-weight: 950;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
 }
 
-.ad-panel strong {
+.table-pass-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 22px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.table-pass-points li {
+  padding: 8px 13px;
+  border: 1px solid rgba(255, 229, 163, 0.38);
+  border-radius: 999px;
+  color: #fffaf0;
+  background: rgba(7, 21, 93, 0.28);
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.table-pass-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.table-pass-actions span {
+  color: rgba(255, 229, 163, 0.82);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.table-pass-card {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  min-height: 460px;
+  padding: 28px 22px 26px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 229, 163, 0.72);
+  border-radius: 22px;
+  color: #fffaf0;
+  background:
+    radial-gradient(circle at 18% 8%, rgba(255, 255, 255, 0.1), transparent 18%),
+    radial-gradient(circle at 78% 12%, rgba(255, 200, 77, 0.16), transparent 20%),
+    linear-gradient(160deg, #071a58, #0a3fa6 56%, #061044);
+  box-shadow:
+    inset 0 0 0 8px rgba(7, 21, 93, 0.35),
+    inset 0 0 0 10px rgba(255, 200, 77, 0.55),
+    0 28px 52px rgba(0, 0, 0, 0.28);
+  transform: rotate(-1.5deg);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.table-pass-card:hover,
+.table-pass-card:focus-visible {
+  transform: rotate(0deg) translateY(-6px);
+  box-shadow:
+    inset 0 0 0 8px rgba(7, 21, 93, 0.35),
+    inset 0 0 0 10px rgba(255, 200, 77, 0.82),
+    0 34px 60px rgba(0, 0, 0, 0.34);
+}
+
+.table-pass-card::before,
+.table-pass-card::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.table-pass-card::before {
+  inset: 14px;
+  border: 1px solid rgba(255, 229, 163, 0.84);
+  border-radius: 14px;
+}
+
+.table-pass-card::after {
+  inset: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+}
+
+.pass-corner {
+  position: absolute;
+  z-index: 2;
+  color: #ffe5a3;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.pass-corner.top-left {
+  top: 18px;
+  left: 20px;
+}
+
+.pass-corner.bottom-right {
+  right: 20px;
+  bottom: 18px;
+  transform: rotate(180deg);
+}
+
+.pass-chip {
+  position: relative;
+  z-index: 2;
+  width: 72px;
+  height: 72px;
+  margin-top: 8px;
+  border-radius: 50%;
+  background:
+    url("./assets/chainpoker-trademark-round.png") center / cover no-repeat;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.28);
+}
+
+.table-pass-card strong {
+  position: relative;
+  z-index: 2;
+  margin-top: 12px;
+  color: #ffe5a3;
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.pass-qr {
+  position: relative;
+  z-index: 2;
+  width: min(74%, 210px);
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fffdf8, #fff);
+  box-shadow:
+    0 0 0 3px #f4b72f,
+    0 16px 28px rgba(0, 0, 0, 0.22);
+}
+
+.pass-qr img {
+  width: 100%;
+  image-rendering: pixelated;
+}
+
+.table-pass-card b {
+  position: relative;
+  z-index: 2;
+  margin-top: 16px;
   color: var(--gold);
-  font-size: clamp(34px, 5vw, 58px);
-  line-height: 0.96;
+  font-size: clamp(22px, 3vw, 30px);
+  line-height: 1;
+}
+
+.table-pass-card small {
+  position: relative;
+  z-index: 2;
+  margin-top: 6px;
+  color: rgba(255, 250, 240, 0.76);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .contact-band {
@@ -806,11 +1035,122 @@ input::placeholder {
 .site-footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
-  padding: 24px clamp(20px, 6vw, 82px) 92px;
+  padding: 24px clamp(20px, 6vw, 82px) 120px;
   color: var(--muted);
   background: #f8fdff;
   font-size: 14px;
+}
+
+.footer-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px 8px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: linear-gradient(180deg, #fff, #eefaff);
+  box-shadow: var(--shadow);
+}
+
+.footer-play img {
+  width: 46px;
+  height: 46px;
+  padding: 4px;
+  border-radius: 12px;
+  background: #fff;
+  image-rendering: pixelated;
+}
+
+.footer-play strong,
+.footer-play small {
+  display: block;
+}
+
+.footer-play strong {
+  color: var(--navy);
+  font-size: 15px;
+}
+
+.footer-play small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.play-dock {
+  position: fixed;
+  z-index: 41;
+  left: clamp(16px, 3vw, 32px);
+  bottom: 18px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.play-dock-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 56px;
+  padding: 8px 16px 8px 8px;
+  border: 2px solid rgba(255, 229, 163, 0.86);
+  border-radius: 999px;
+  color: #3a2500;
+  background: linear-gradient(180deg, #ffe584, #ffc84d 58%, #e3a31a);
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, 0.7),
+    0 12px 22px rgba(244, 183, 47, 0.34);
+  font: inherit;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+.play-dock-chip {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: url("./assets/chainpoker-trademark-round.png") center / cover no-repeat;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+}
+
+.play-dock-panel {
+  width: 198px;
+  padding: 14px;
+  border: 1px solid rgba(255, 229, 163, 0.72);
+  border-radius: 22px;
+  background: linear-gradient(180deg, #10206e, #07155d);
+  box-shadow: 0 18px 36px rgba(7, 21, 93, 0.28);
+  color: #fffaf0;
+  text-align: center;
+}
+
+.play-dock-panel img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 16px;
+  background: #fff;
+  image-rendering: pixelated;
+}
+
+.play-dock-panel a {
+  display: block;
+  margin-top: 10px;
+  color: var(--gold);
+  font-size: 16px;
+  font-weight: 950;
+}
+
+.play-dock-panel small {
+  display: block;
+  margin-top: 4px;
+  color: rgba(255, 250, 240, 0.72);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .support-dock {
@@ -862,9 +1202,18 @@ input::placeholder {
   .cut-card-layout,
   .card-row,
   .systems-band,
-  .ad-mount,
   .contact-band {
     grid-template-columns: 1fr;
+  }
+
+  .table-pass {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
+
+  .ad-mount {
+    padding-bottom: 160px;
   }
 
   .hero {
@@ -945,6 +1294,30 @@ input::placeholder {
     align-items: center;
   }
 
+  .hero-qr {
+    width: min(100%, 280px);
+    justify-content: center;
+  }
+
+  .ad-mount {
+    padding-bottom: 176px;
+  }
+
+  .table-pass-card {
+    width: min(100%, 360px);
+    margin: 0 auto;
+    transform: none;
+  }
+
+  .play-dock {
+    left: 12px;
+    bottom: 92px;
+  }
+
+  .play-dock-panel {
+    width: 214px;
+  }
+
   .cut-qr {
     bottom: 136px;
     width: min(62%, 158px);
@@ -978,6 +1351,7 @@ input::placeholder {
 
   .site-footer {
     flex-direction: column;
+    padding-bottom: 168px;
   }
 
   .support-dock {
