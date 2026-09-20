@@ -884,6 +884,10 @@ input::placeholder {
   color: var(--blue);
 }
 
+.side-ad {
+  display: none;
+}
+
 .support-dock {
   position: fixed;
   z-index: 40;
@@ -915,6 +919,87 @@ input::placeholder {
 .support-dock strong {
   color: #fff8d8;
   font-size: 15px;
+}
+
+@media (min-width: 1400px) {
+  .site-header,
+  .hero,
+  .signal-band,
+  .section,
+  .systems-band,
+  .ad-mount,
+  .contact-band,
+  .site-footer {
+    padding-left: 168px;
+    padding-right: 168px;
+  }
+
+  .hero::before {
+    left: 168px;
+    right: 168px;
+  }
+
+  .side-ad {
+    position: fixed;
+    z-index: 25;
+    top: 50%;
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    width: 132px;
+    padding: 36px 12px 14px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    color: var(--ink);
+    background: linear-gradient(180deg, #fff, #eefaff);
+    box-shadow:
+      inset 0 3px 0 #fff,
+      0 9px 0 rgba(75, 168, 224, 0.12),
+      var(--shadow);
+    transform: translateY(-50%);
+  }
+
+  .side-ad-left {
+    left: 16px;
+  }
+
+  .side-ad-right {
+    right: 16px;
+  }
+
+  .side-ad-chip {
+    position: absolute;
+    top: -16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: url("./assets/chainpoker-trademark-round.png") center / cover no-repeat;
+    box-shadow: 0 8px 16px rgba(18, 143, 243, 0.2);
+  }
+
+  .side-ad img {
+    width: 100%;
+    image-rendering: pixelated;
+  }
+
+  .side-ad strong {
+    color: var(--navy);
+    font-size: 12px;
+    line-height: 1.1;
+  }
+
+  .side-ad small {
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .side-ad:hover,
+  .side-ad:focus-visible {
+    transform: translateY(calc(-50% - 4px));
+  }
 }
 
 @media (max-width: 980px) {
