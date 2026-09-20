@@ -885,66 +885,99 @@ input::placeholder {
 }
 
 .side-ads {
+  --side-rail: clamp(200px, 15.5vw, 260px);
   position: fixed;
   z-index: 25;
-  inset: 96px 12px 108px;
+  top: 112px;
+  bottom: 54px;
+  left: 12px;
+  right: 12px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   pointer-events: none;
 }
 
 .side-ad {
   position: relative;
   pointer-events: auto;
-  display: grid;
-  justify-items: center;
-  gap: 10px;
-  width: 124px;
-  padding: 36px 12px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: var(--side-rail);
+  padding: 56px 22px 28px;
   border: 1px solid var(--line);
-  border-radius: var(--radius);
+  border-radius: 34px;
   color: var(--ink);
   background: linear-gradient(180deg, #fff, #eefaff);
   box-shadow:
     inset 0 3px 0 #fff,
-    0 9px 0 rgba(75, 168, 224, 0.12),
+    0 12px 0 rgba(75, 168, 224, 0.18),
     var(--shadow);
-  transition: transform 0.2s ease;
+  text-align: center;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .side-ad-chip {
   position: absolute;
-  top: -16px;
-  width: 40px;
-  height: 40px;
+  top: 18px;
+  width: 54px;
+  height: 54px;
   border-radius: 50%;
   background: url("./assets/chainpoker-trademark-round.png") center / cover no-repeat;
   box-shadow: 0 8px 16px rgba(18, 143, 243, 0.2);
 }
 
+.side-ad-kicker {
+  margin-top: 36px;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
 .side-ad img {
-  width: 100%;
+  width: min(100%, 210px);
   image-rendering: pixelated;
 }
 
 .side-ad strong {
   color: var(--navy);
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.1;
 }
 
 .side-ad small {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.side-ad-cta {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 999px;
+  color: #3a2500;
+  background: linear-gradient(180deg, #ffe584, #ffc84d 58%, #e3a31a);
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  font-weight: 950;
 }
 
 .side-ad:hover,
 .side-ad:focus-visible {
-  transform: translateY(-4px);
+  border-color: rgba(255, 200, 77, 0.72);
+  box-shadow:
+    inset 0 3px 0 #fff,
+    0 12px 0 rgba(75, 168, 224, 0.18),
+    0 22px 42px rgba(26, 126, 196, 0.22);
 }
 
 .support-dock {
@@ -980,7 +1013,7 @@ input::placeholder {
   font-size: 15px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .site-header,
   .hero,
   .signal-band,
@@ -989,17 +1022,26 @@ input::placeholder {
   .ad-mount,
   .contact-band,
   .site-footer {
-    padding-left: 156px;
-    padding-right: 156px;
+    padding-left: calc(clamp(200px, 15.5vw, 260px) + 20px);
+    padding-right: calc(clamp(200px, 15.5vw, 260px) + 20px);
+  }
+
+  .hero {
+    grid-template-columns: minmax(260px, 0.9fr) minmax(300px, 1.1fr);
+    gap: clamp(18px, 2.5vw, 40px);
   }
 
   .hero::before {
-    left: 156px;
-    right: 156px;
+    left: calc(clamp(200px, 15.5vw, 260px) + 20px);
+    right: calc(clamp(200px, 15.5vw, 260px) + 20px);
+  }
+
+  h1 {
+    font-size: clamp(42px, 4.8vw, 72px);
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1279px) {
   .side-ads {
     display: none;
   }
